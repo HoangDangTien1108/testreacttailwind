@@ -4,7 +4,7 @@ export default function Productdesign() {
   return (
     <div className=''>
         <div className='container mx-auto px-[20px] flex gap-[19px] items-center'>
-            <div className='2xl:w-[52%] xl:w-[65%] lg:w-[85%] md:w-[75%] designPro:w-[65%] w-[75%] flex lg:m-0 navBar:m-auto designPro:mx-[20px] ip12:m-auto mx-[25px]'>
+            <div className='2xl:w-[52%] xl:w-[65%] lg:w-[85%] md:w-[75%] designPro:w-[65%] w-[75%] flex lg:m-0 navBar:m-auto designPro:mx-[20px] ip12:m-auto mx-[30px]'>
                 <div className='flex flex-col gap-[70px] lg:w-[95%] w-full'>
                     <div className='flex flex-col gap-[18px]'>
                         <h1 className='font-anton font-normal tracking-[-3%]
