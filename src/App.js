@@ -12,6 +12,7 @@ function App() {
         <Navbar/>
         <Productdesign/>
       </header>
+      <nav></nav>
     </div>
     </> 
   );
