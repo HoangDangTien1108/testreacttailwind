@@ -26,6 +26,7 @@ module.exports = {
       screens:{
         navBar:'640px',
         designPro:'450px',
+        ip12:'391px',
       },
     },
   },
