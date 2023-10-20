@@ -17,6 +17,7 @@ module.exports = {
         gray:'#292929',
         green:'#C8FEC7',
         rateGray:'#646464',
+        rateBlack:'#0B0B0B',
         grayPtf:'#737373',
         violet:'#BE9FF6',
         violetPtf:'#E9DFFC',

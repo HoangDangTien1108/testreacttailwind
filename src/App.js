@@ -2,6 +2,8 @@
 import './App.css';
 import Productdesign from './components/Productdesign';
 import Navbar from './components/Navbar';
+import Rates from './components/Rates';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -12,7 +14,10 @@ function App() {
         <Navbar/>
         <Productdesign/>
       </header>
-      <nav></nav>
+      <div className='content my-[200px] flex flex-col gap-[200px]'>
+        <Rates/>
+        <Portfolio/>
+      </div>
     </div>
     </> 
   );
