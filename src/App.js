@@ -4,9 +4,11 @@ import Productdesign from './components/Productdesign';
 import Navbar from './components/Navbar';
 import Rates from './components/Rates';
 import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+
 
 function App() { 
-
+  
   return (
     <>
     <div className='LandingWeb bg-black text-white'>
@@ -46,6 +48,14 @@ function App() {
               </div>
             </div>
           </div>   
+        </div>
+        <div className='Skills'>
+          <div className='container mx-auto px-[20px] flex flex-col gap-[50px]'>
+            <h1 className='font-anton font-normal text-[64px] leading-[64px]'>SKILLS</h1>
+            <div className='flex flex-wrap gap-[20px]'>
+              <Skills/>
+            </div>
+          </div>
         </div>
       </div>
     </div>

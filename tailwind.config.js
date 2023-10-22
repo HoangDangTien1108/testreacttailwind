@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         anton: ['Anton'],
-        gotham: ['Gotham']
+        gotham: ['Gotham'],
+        gothamBlack: ['Gotham Black'],
       },
       colors: {
         navBarViolet:'#925FF0',
