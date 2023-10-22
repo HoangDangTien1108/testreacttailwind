@@ -22,7 +22,6 @@ module.exports = {
         violet:'#BE9FF6',
         violetPtf:'#E9DFFC',
         tViolet:'#784DC7',
-        buttonPtf:'#292929',
       },  
       screens:{
         navBar:'640px',
