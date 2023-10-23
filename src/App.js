@@ -73,8 +73,10 @@ function App() {
         </div>
       </div>
 
-      <div className='footer bg-gray h-[270px] w-full sm:mt-[400px] mt-[220px]'>
+      <div className='footer relative bg-gray h-[270px] w-full sm:mt-[400px] mt-[220px]'>
         <Footer/>
+        <div className='border-b  absolute bottom-[35px] w-full'>
+        </div>
       </div>
     </div>
     </> 

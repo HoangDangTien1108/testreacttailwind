@@ -7,7 +7,7 @@ export default function Footer() {
             <div className='absolute sm:h-[180px] h-[112px] rounded-[15px] bg-violetFotter w-[100%] z-0 flex items-center justify-between top-0 left-0'>
                 <div className='z-10'>
                     <img className='sm:flex hidden z-10 absolute top-[50px] left-0' src='image/Frame 36.png' alt=''/>
-                    <img className='z-20 absolute sm:top-[-217px] designPro:top-[-110.3px] top-[-81px] sm:left-[-30px] left-[-10px] sm:w-auto w-[35%]' src='image/wepik-photo-mode-2022926-13587.png' alt=''/>
+                    <img className='z-20 absolute sm:top-[-217px] designPro:top-[-110.3px] ip12:top-[-81px] ip12:bottom-0 bottom-[0] sm:left-[-30px] left-[-10px] sm:w-auto w-[35%]' src='image/wepik-photo-mode-2022926-13587.png' alt=''/>
                 </div>
                 <div className='z-10 absolute
                 2xl:left-[20%]  2xl:w-[69%] 
