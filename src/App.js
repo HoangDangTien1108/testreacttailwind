@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import Rates from './components/Rates';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
+import Kaleb from './components/Kaleb';
+import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 
 function App() { 
@@ -16,7 +19,7 @@ function App() {
         <Navbar/>
         <Productdesign/>
       </header>
-      <div className='content my-[200px] flex flex-col gap-[200px]'>
+      <div className='content sm:my-[200px] my-[140px] flex flex-col sm:gap-[200px] gap-[140px]'>
         <Rates/>
           <div className='Portfolio'>
           <div className='container mx-auto px-[20px] flex flex-col gap-[36px]'>
@@ -57,7 +60,22 @@ function App() {
             </div>
           </div>
         </div>
+        <div className='Kaleb bg-kaleb-image bg-cover bg-center'>
+          <div className='container mx-auto 2xl:p-[180px] xl:px-[80px] xl:py-[150px] lg:px-[49px] lg:py-[120px] px-[20px] md:py-[90px] py-[80px]'>
+            <Kaleb/>
+          </div>
+        </div>
+
+        <div className='AboutMe'>
+          <div className='container mx-auto px-[20px]'>
+            <AboutMe/>
+          </div>
+        </div>
       </div>
+
+      {/* <div className='relative footer bg-gray h-[283px] w-full'>
+        <Footer/>
+      </div> */}
     </div>
     </> 
   );
