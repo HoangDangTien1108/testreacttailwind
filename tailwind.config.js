@@ -31,7 +31,8 @@ module.exports = {
         yellowCol:'#FFE76A',
         blueCol:'#65C8FF',
         redCol:'#FF0000',
-        grayBoder:'#E6E6E6'
+        grayBoder:'#E6E6E6',
+        violetFotter:'#A87FF3',
       },  
       screens:{
         navBar:'640px',

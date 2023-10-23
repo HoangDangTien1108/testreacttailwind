@@ -73,9 +73,9 @@ function App() {
         </div>
       </div>
 
-      {/* <div className='relative footer bg-gray h-[283px] w-full'>
+      <div className='footer bg-gray h-[270px] w-full sm:mt-[400px] mt-[220px]'>
         <Footer/>
-      </div> */}
+      </div>
     </div>
     </> 
   );
